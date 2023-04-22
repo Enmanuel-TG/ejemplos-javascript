@@ -46,4 +46,4 @@ console.log(getTasks());
 createTask(taskBuilder('Task 1'));
 createTask(taskBuilder('Task 2', true));
 console.log(getTasks());
-updateTask('1', taskBuilder('Task 1 updated'));
+updateTask('1', {title: 'Task 1 updated'});
