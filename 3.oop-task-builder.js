@@ -1,6 +1,4 @@
 class TaskBuilder {
-  #_uuid;
-
   // private method to generate unique id
   #_uuid = () => Math.random().toString(36).substr(2, 9);
 
