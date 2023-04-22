@@ -6,7 +6,7 @@ function taskBuilder(title, isCompleted = false) {
 
   return {
     id: _uuid(),
-    title: title,
+    title,
     isCompleted: isCompleted,
   };
 }
