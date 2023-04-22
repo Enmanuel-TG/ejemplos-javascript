@@ -12,7 +12,7 @@ function sumArray(numbersArray) {
   // Código...
 }
 
-// Factorial: Escribe una función que calcule el factorial de un número dado. El factorial son la suma n números desde 1 hasta dicho, por ejemplo el factorial de 5 es 1 + 2 + 3 + 4 + 5, es decir 15.
+// Factorial: Escribe una función que calcule el factorial de un número dado. El factorial son la suma n números desde 1 hasta dicho número, por ejemplo el factorial de 5 es 1 + 2 + 3 + 4 + 5, es decir 15.
 function factorial(n) {
   // Código...
 }
