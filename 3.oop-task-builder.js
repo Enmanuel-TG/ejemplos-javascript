@@ -4,7 +4,6 @@ class TaskBuilder {
 
   constructor(title, isCompleted = false) {
     this.id = this.#_uuid();
-    this.id = this.#_uuid();
     this.title = title
     this.isCompleted = isCompleted
   }
