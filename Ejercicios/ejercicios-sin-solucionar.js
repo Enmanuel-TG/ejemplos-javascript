@@ -1,5 +1,12 @@
 // RESUELVE LOS SIGUIENTE EJERCICIOS, PUEDES BUSCAR EN GOOGLE LAS FORMULAS O INCLUSO PREGUNTARLE A CHAT GPT POR LA FORMULA, PERO NO LA RESOLUCIÓN DEL CÓDIGO.
 
+//! No es necesario enfocarse en VALIDACIONES
+//! No es necesario enfocarse en ESTILOS
+//! No es necesario enfocarse en HTML
+//! No es necesario enfocarse en CSS
+//! No es necesario enfocarse en DOM
+//! SOLO LA LÓGICA
+
 // Fibonacci: Escribe una función que calcule los primeros n números de la secuencia de Fibonacci.
 
 function fibonacci(n) {
