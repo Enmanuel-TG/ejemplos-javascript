@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 35vw;
+  padding: 40px;
+  height: 40vh;
+  margin: auto;
+  border: 5px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  margin: -25px 0 0 -25px;
+  user-select: none;
+  border-radius:20px;
+  filter: drop-shadow(10px 10px 20px black);
+}
+.iInfor {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.iInfor input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.iInfor button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border:none;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  transition: 2s;
+}
+.iInfor button:hover {
+  width: 100px;
+  height: 40px;
+  border:2px solid red;
+  transition: 250ms;
+}
+
+.mostrar {
+  display: flex;
+  justify-content: center;
+}
+.mostrar div {
+  display: flex;
+  justify-content: center;
+  border: solid 2px black;
+  width: 200px;
+}
